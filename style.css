@@ -29,7 +29,7 @@ outline: none;
 
 p  {
 backgrand-color: gray ;
-color: White ;
+color: black ;
 font-size: 28pt;
 fot-family: Cooper Black;
 text-align: center;
@@ -37,8 +37,8 @@ text-align: center;
 
 
 h2 {
-backgrand-color: white ;
-color: White ;
+backgrand-color: black ;
+color: black ;
 font-size: 35pt;
 fot-family: Berlin Sans FB Demi;
 text-align: center;
