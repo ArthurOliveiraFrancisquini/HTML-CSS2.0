@@ -1,10 +1,10 @@
 
 @CHARSET'UTF-8';
 
-body { background-image: linear-gradient(to left, green, blue); }
+body { background-image: linear-gradient (to left, green, blue); }
 
 .link_underline{
-text-decoration:none;
+text-decoration: none;
 }
 
 img {
