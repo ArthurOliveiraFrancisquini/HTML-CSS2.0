@@ -1,23 +1,25 @@
+@charset "utf-8";
 
-@CHARSET'UTF-8';
+html { 
+  background-image: linear-gradient(to left, blue, red); 
+  background-size: cover;
+  background-poisition: center;
+}
 
-body { background-image: linear-gradient (to left, #29ff84 , #084cce); }
-
-.link_underline {
+.link_underline{
 text-decoration: none;
 }
 
-img {
+img{
   display: block;
   margin: 0 auto;
   width: auto;
 }
 
-h1 {
-backgrand-color: gray;
-color: black;
+h1{
+color: white;
 font-size: 40pt;
-fot-family: Berlin Sans FB Demi;
+font-family: Berlin Sans FB Demi;
 text-align: center;
 text-decoration: none;
 border-bottom: none;
@@ -25,30 +27,38 @@ outline: none;
   
 }
 
-
-
-p  {
-backgrand-color: gray;
-color: black;
+p{
+color: white;
 font-size: 28pt;
-fot-family: Cooper Black;
+font-family: Cooper Black;
 text-align: center;
 }
 
 
-h2 {
-backgrand-color: black;
-color: black;
+h2{
+color: white;
 font-size: 35pt;
-fot-family: Berlin Sans FB Demi;
+font-family: Berlin Sans FB Demi;
 text-align: center;
 text-decoration: none;
 border-bottom: none;
 outline: none;
 }
 
-a { 
-text-decoration: none;
+a{
+color: white;
 border-bottom: none;
+text-decoration: none;
 outline: none;
+}
+h1#principal{
+  font-size: 16pt;
+  font-family: Arial;
+  color: red;
+}
+
+p#secundario{
+  font-size: 20;
+  font-family: Verdana;
+  color: blue;
 }
